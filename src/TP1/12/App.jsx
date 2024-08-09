@@ -1,4 +1,3 @@
-import './main.css'
 import ListaTarefas from "./components/lista-tarefas"
 
 export default function App() {

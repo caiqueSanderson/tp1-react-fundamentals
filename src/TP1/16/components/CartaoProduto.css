@@ -1,0 +1,51 @@
+.card_produto {
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 240px;
+}
+
+.top_card {
+    position: relative;
+
+    background-color: #EF3749;
+    border-radius: 15px 15px 0 0;
+    height: 45%;
+}
+
+.top_card .preco_produto {
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 1000;
+    font-style: italic;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.bottom_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    height: 55%;
+}
+
+.bottom_card .descricao_produto {
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 75%;
+
+}
+
+.btn_comprar {
+    background-color: #EF3749;
+    color: white;
+    max-width: 90%;
+    border-radius: 10px;
+
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}

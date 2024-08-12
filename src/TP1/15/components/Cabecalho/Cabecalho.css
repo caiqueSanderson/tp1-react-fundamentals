@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header .name {
+    color: #E0E0E0;
+    margin-bottom: 40px;
+}
+
+.description {
+    color: #B3B3B3;
+    margin-left: 20px;
+}
+
+.description_titulo {
+    margin: 50px 10px 0 0;
+}
+
+.description_skills li{
+    list-style: none;
+    margin: 10px 15px;
+}

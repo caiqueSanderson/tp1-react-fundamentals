@@ -1,0 +1,17 @@
+.card {
+    max-width: 40vw;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 60%;
+    margin: auto;
+}
+
+.card p {
+    margin: 5px 10px;
+}
+
